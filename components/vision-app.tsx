@@ -126,7 +126,7 @@ export default function VisionApp() {
   }
 
   return (
-    <div className="relative flex flex-col items-center justify-center min-h-screen bg-black overflow-hidden">
+    <div className="relative flex flex-col items-center justify-center min-h-dvh bg-black overflow-hidden overscroll-none">
 
       <div className="absolute inset-0 opacity-10"
         style={{
@@ -135,7 +135,7 @@ export default function VisionApp() {
         }}
       />
 
-      <div className="absolute top-0 left-0 right-0 flex justify-between items-center px-6 py-4 z-10">
+      <div className="absolute top-0 left-0 right-0 flex justify-between items-center px-6 py-4 z-10" style={{ paddingTop: 'max(1rem, env(safe-area-inset-top))' }}>
         <div>
           <p className="text-green-400 font-mono text-xs tracking-widest">VISIONX</p>
           <p className="text-green-900 font-mono text-xs">{UI_TEXT.version}</p>
@@ -167,18 +167,18 @@ export default function VisionApp() {
         />
       </div>
 
-      <div className="absolute bottom-0 left-0 right-0 px-6 py-6 z-10">
+      <div className="absolute bottom-0 left-0 right-0 px-6 py-6 z-10" style={{ paddingBottom: 'max(1.5rem, env(safe-area-inset-bottom))' }}>
         <div className="flex justify-between items-end">
           <div>
             <p className="text-green-900 font-mono text-xs tracking-widest mb-1">{UI_TEXT.targetIdentified}</p>
-            <p className="text-green-400 text-5xl font-bold drop-shadow-lg"
+            <p className="text-green-400 text-3xl sm:text-5xl font-bold drop-shadow-lg"
               style={{ fontFamily: "'Khmer OS', 'Noto Sans Khmer', sans-serif" }}>
               {label}
             </p>
           </div>
           <div className="text-right">
             <p className="text-green-900 font-mono text-xs tracking-widest mb-1">{UI_TEXT.confidence}</p>
-            <p className="text-green-400 font-mono text-4xl font-bold">
+            <p className="text-green-400 font-mono text-2xl sm:text-4xl font-bold">
               {confidence > 0 ? `${confidence}%` : '--'}
             </p>
           </div>
