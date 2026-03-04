@@ -115,7 +115,7 @@ export default function VisionApp() {
       const khmer = khmerLabels[best.class] || best.class.toUpperCase()
       setLabel(khmer)
       setConfidence(Math.round(best.score * 100))
-      speak(best.class)
+      speak(khmerLabels[best.class] || best.class)
 
     } else {
       setLabel(UI_TEXT.scanning)
