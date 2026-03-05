@@ -1,14 +1,14 @@
-# VisionX 👁️
+# VisionKH 👁️
 
 > Real-time AI object detection with Khmer language support — inspired by the Korean drama [Start-Up (스타트업)](https://en.wikipedia.org/wiki/Start-Up_(South_Korean_TV_series))
 
-🔴 **Live Demo:** [visionx.oudom.dev](https://visionx.oudom.dev)
+🔴 **Live Demo:** [visionkh.oudom.dev](https://visionkh.oudom.dev)
 
 ---
 
 ## Inspiration
 
-While watching the Korean drama *Start-Up (2020)*, I was inspired by a scene where an AI app identifies objects through a camera to help visually impaired people. That moment sparked the idea for VisionX — a real-time object detection web app that not only identifies objects but displays and speaks their names in **Khmer (ភាសាខ្មែរ)**.
+While watching the Korean drama *Start-Up (2020)*, I was inspired by a scene where an AI app identifies objects through a camera to help visually impaired people. That moment sparked the idea for VisionKH — a real-time object detection web app that not only identifies objects but displays and speaks their names in **Khmer (ភាសាខ្មែរ)**.
 
 ---
 
@@ -38,7 +38,7 @@ While watching the Korean drama *Start-Up (2020)*, I was inspired by a scene whe
 
 ## Detectable Objects
 
-VisionX can detect **80 object classes** including:
+VisionKH can detect **80 object classes** including:
 
 `មនុស្ស` `កៅអី` `តុ` `ទូរស័ព្ទ` `កុំព្យូទ័រ` `រថយន្ត` `ឆ្កែ` `ឆ្មា` `ដំរី` `សៀវភៅ` and many more...
 
@@ -55,10 +55,10 @@ VisionX can detect **80 object classes** including:
 
 ```bash
 # Clone the repository
-git clone https://github.com/oudomm/visionx.git
+git clone https://github.com/oudomm/visionkh.git
 
 # Navigate into the project
-cd visionx
+cd visionkh
 
 # Install dependencies
 npm install

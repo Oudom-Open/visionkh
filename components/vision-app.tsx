@@ -191,7 +191,7 @@ export default function VisionApp() {
       {/* Loading overlay */}
       {!isReady && (
         <div className="absolute inset-0 bg-black/90 flex flex-col items-center justify-center gap-5 z-20">
-          <p className="font-bold text-white text-2xl tracking-[6px] font-mono">VISIONX</p>
+          <p className="font-bold text-white text-2xl tracking-[6px] font-mono">VISIONKH</p>
           <div className="w-10 h-10 border-2 border-stone-700 border-t-cyan-400 rounded-full animate-spin" />
           <p className="text-stone-400 text-sm" style={{ fontFamily: 'var(--font-khmer)' }}>
             {UI_TEXT.loadingModel}
@@ -205,7 +205,7 @@ export default function VisionApp() {
         style={{ paddingTop: 'max(0.75rem, env(safe-area-inset-top))' }}
       >
         <div>
-          <p className="font-bold text-white text-lg tracking-[4px] font-mono">VISIONX</p>
+          <p className="font-bold text-white text-lg tracking-[4px] font-mono">VISIONKH</p>
           <p className="text-white/40 text-base font-mono tracking-widest">{UI_TEXT.version} · {UI_TEXT.subtitle}</p>
         </div>
       </div>
